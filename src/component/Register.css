@@ -1,0 +1,43 @@
+.register-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.register-box{
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.register-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.register-box button{
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login-link-text{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.login-link-text a{
+    color: blue;
+    text-decoration: none;
+}
