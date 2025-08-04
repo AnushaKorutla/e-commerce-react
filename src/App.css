@@ -73,18 +73,23 @@ button{
   max-width: 600px;
   margin: 40px auto;
   background: #fff;
-  padding: 20px;
+  padding: 30px 20px;
   border-radius: 8px;
+  align-items: center;
 }
 .quiz-question{
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .quiz-options{
   list-style: none;
   padding: 0;
+  margin-bottom: 20px;
 }
 .quiz-options li{
   margin-bottom: 10px;
+  padding-left: 5px;
+  align-items: center;
+  gap: 10px;
 }
 .quiz-btn{
   margin-top: 20px;

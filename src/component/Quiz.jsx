@@ -22,8 +22,11 @@ export default function Quiz(){
     useEffect(()=>{
         if (done && !saved){
             const userEmail = localStorage.getItem("userEmail")||"Anonymous";
-            const scores = JSON.parse(localStorage.getItem("Scores")||"[]");
+
+            const scores = JSON.parse(localStorage.getItem("scores")||"[]");
+             
             scores.push({email:userEmail, score:score});
+            
             localStorage.setItem("scores", JSON.stringify(scores));
             setSaved(true);
         }
